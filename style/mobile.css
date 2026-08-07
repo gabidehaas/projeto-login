@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(92, 8, 8);
+}
+
+.card{
+    width: 85vw;
+    max-width: 400px;
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(54, 5, 5, 0.562);
+
+    overflow: hidden;
+}
+
+.card_imagem{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card_container{
+    padding: 15px;
+}
+
+.card_container_titulo{
+    text-align: center;
+}
+
+.card_paragrafo_central{
+    padding: 13px 0px;
+
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card_paragrafo_justificado{
+    margin-bottom: 12px;
+}
+
+.campo_container{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 3px;
+
+    background-color: #C1252F;
+    border-radius: 6px;
+}
+
+.icone_login{
+    width: 25px;
+    margin: 7px;
+}
+
+.campo{
+    width: 100%;
+    padding: 4px;
+
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.bt_entrar{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+
+    background-color: #C1252F;
+    border: none;
+    border-radius: 6px;
+
+    font-weight: bold;
+    color: white;
+
+    cursor: pointer;
+}
+
+.bt_entrar:hover{
+    background-color: #b40713;
+}
+
+.bt_esqueci{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #C1252F;
+
+    transition: text-decoration 0.2s;
+}
+
+.bt_esqueci:hover{
+    text-decoration: underline;
+    transition: text-decoration 0.2s;
+}

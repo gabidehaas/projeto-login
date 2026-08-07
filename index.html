@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/mediaquery.css">
+</head>
+<body>
+    <main class="card">
+        <img class="card_imagem" src="images/fundo_600.jpg" alt="Imagem de dados">
+
+        <div class="card_container">
+            <h1 class="card_container_titulo">Login</h1>
+
+            <p class="card_paragrafo_central">Seja bem-vindo(a)  novamente.</p>
+            <p class="card_paragrafo_justificado">Faça login para acessar sua conta e configurar seu ambiente.</p>
+
+            <form class="formulario" action="cadastro.php" method="post" autocomplete="on">
+
+                <div class="campo_container">
+
+                    <img class="icone_login" src="images/user_white.png" alt="Usuário">
+
+                    <input class="campo" type="text" name="nome" id="nome" placeholder="Usuário" required>
+                </div>
+
+                <div class="campo_container">
+
+                    <img class="icone_login" src="images/padlock_white.png" alt="Senha">
+
+                    <input class="campo" type="password" name="senha" id="senha" placeholder="Senha" required>
+                </div>
+
+                <input class="bt_entrar" type="submit" value="Entrar">
+
+                <a class="bt_esqueci" href="#">Esqueci a senha</a>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>
